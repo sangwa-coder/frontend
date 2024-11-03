@@ -1,0 +1,110 @@
+.manage-public-knowledge {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-public-knowledge h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .manage-public-knowledge form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .manage-public-knowledge form input,
+  .manage-public-knowledge form textarea,
+  .manage-public-knowledge form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .manage-public-knowledge form input:focus,
+  .manage-public-knowledge form textarea:focus,
+  .manage-public-knowledge form button:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .manage-public-knowledge form button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .manage-public-knowledge form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .manage-public-knowledge ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+  }
+  
+  .manage-public-knowledge li {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .manage-public-knowledge li h3 {
+    margin: 0 0 10px;
+    color: #333;
+  }
+  
+  .manage-public-knowledge li p {
+    margin: 0 0 10px;
+    color: #666;
+  }
+  
+  .manage-public-knowledge li img {
+    max-width: 100px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .manage-public-knowledge li button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  
+  .manage-public-knowledge li button:first-of-type {
+    background-color: #ffc107;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .manage-public-knowledge li button:first-of-type:hover {
+    background-color: #e0a800;
+  }
+  
+  .manage-public-knowledge li button:last-of-type {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .manage-public-knowledge li button:last-of-type:hover {
+    background-color: #c82333;
+  }
+  
